@@ -1,0 +1,18 @@
+===== Granting execute permission =====
+===== Files in submission folder =====
+a.txt
+b.txt
+c.txt
+===== Running process_submissions.sh =====
+Done. See report.txt and errors.log
+===== report.txt =====
+===== Submission Processing Report =====
+Date: Fri Jul 24 11:18:56 AM UTC 2026
+Total files processed : 3
+Duplicate files found : 1
+Files backed up       : 2
+Backup location        : ./backup_unique_2026-07-24_11-18-56
+===== errors.log =====
+===== backup folder contents =====
+a.txt
+c.txt
