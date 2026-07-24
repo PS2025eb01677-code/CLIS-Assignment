@@ -1,0 +1,14 @@
+===== Granting execute permission =====
+===== Creating empty log file =====
+===== Starting background monitor (auto-stops after 4s) =====
+===== Writing log entries (simulating live server activity) =====
+Fri Jul 24 11:27:59 AM UTC 2026 ERROR: disk full
+Fri Jul 24 11:28:00 AM UTC 2026 ERROR: connection timeout
+===== Full system.log content =====
+Fri Jul 24 11:27:58 AM UTC 2026 INFO: service started
+Fri Jul 24 11:27:59 AM UTC 2026 ERROR: disk full
+Fri Jul 24 11:27:59 AM UTC 2026 INFO: user login successful
+Fri Jul 24 11:28:00 AM UTC 2026 ERROR: connection timeout
+===== error_report.txt (ERROR entries only) =====
+Fri Jul 24 11:27:59 AM UTC 2026 ERROR: disk full
+Fri Jul 24 11:28:00 AM UTC 2026 ERROR: connection timeout
